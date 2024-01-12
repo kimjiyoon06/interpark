@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font:inherit ;
+    color: #000;
+}
+a {
+     text-decoration: none;
+}
+ul,
+ol{
+    list-style: none;
+}
+button{
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+/*custom */
+html{font-size: 10px;}
+body{
+    font-size: 1.6rem;
+    font-family: 'pretendard';
+    font-weight: 400;
+}
+.inner{
+    width: 100%;
+    max-width:1320px;
+    padding: 0 20px;
+    margin: 0 auto; 
+}
